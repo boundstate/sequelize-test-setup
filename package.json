@@ -1,0 +1,24 @@
+{
+  "name": "sequelize-test-setup",
+  "description": "set up test database and load fixtures with sequelize",
+  "version": "0.0.1",
+  "author": "Bound State Software Inc",
+  "bugs": "https://github.com/boundstate/sequelize-test-setup/issues",
+  "keywords": [
+    "sequelize",
+    "test",
+    "fixtures",
+    "migrations"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/boundstate/sequelize-test-setup.git"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "sequelize": "^3.5.1",
+    "sequelize-fixtures": "^0.4.7",
+    "umzug": "^1.6.0"
+  }
+}
