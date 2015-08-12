@@ -1,7 +1,7 @@
 {
   "name": "sequelize-test-setup",
   "description": "set up test database and load fixtures with sequelize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Bound State Software Inc",
   "bugs": "https://github.com/boundstate/sequelize-test-setup/issues",
   "keywords": [
