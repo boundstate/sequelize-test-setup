@@ -26,9 +26,9 @@ sequelizeTestSetup({
 ## Options
 
 - `sequelize` *Sequelize* - Sequelize instance
+- `models` *Array* - Sequelize models
 - `migrationsPath` *String* - path to migrations
 - `fixtures` *Array* - fixture filenames to load via [sequelize-fixtures]
-- `models` *Array* - Sequelize models
 - `truncate` *Boolean* - use TRUNCATE instead of DELETE queries (default: `true`)
 
 ## Tips
