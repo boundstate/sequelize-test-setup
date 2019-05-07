@@ -17,10 +17,10 @@
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "sequelize-fixtures": "^0.9.0",
-    "umzug": "^1.6.0"
+    "sequelize-fixtures": "^0.10.0",
+    "umzug": "^2.2.0"
   },
   "peerDependencies": {
-    "sequelize": ">= 3 < 5"
+    "sequelize": "^5"
   }
 }
