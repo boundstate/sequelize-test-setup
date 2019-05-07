@@ -16,11 +16,18 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular --context conventional-changelog.json -i CHANGELOG.md -s",
+    "version": "npm run changelog && git add CHANGELOG.md"
+  },
   "dependencies": {
     "sequelize-fixtures": "^0.10.0",
     "umzug": "^2.2.0"
   },
   "peerDependencies": {
     "sequelize": "^5"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.21"
   }
 }
